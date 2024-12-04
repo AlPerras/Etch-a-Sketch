@@ -1,0 +1,32 @@
+:root {
+  /* get the size of each square for 16x16 */
+  /* taking border pixel into account */
+  --grid-var: calc(100% / 16 - 2px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 700px;
+  height: 700px;
+  /* background-color: red; */
+  border: 1px solid black;
+}
+
+#grid {
+  width: var(--grid-var);
+  height: var(--grid-var);
+  border: 1px solid black;
+}
