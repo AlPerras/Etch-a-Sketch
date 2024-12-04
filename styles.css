@@ -30,3 +30,8 @@ body {
   height: var(--grid-var);
   border: 1px solid black;
 }
+
+/* Easy way of doing it */
+/* #grid:hover {
+  background-color: red;
+} */
